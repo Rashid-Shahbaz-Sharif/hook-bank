@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HookBank</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="navbar container">
+            <div class="inner-container">
+
+                <div class="site-logo brand-logo">
+                    <a href="#">
+                        <img src="images/site_logo.svg" alt="site_logo"></a>
+                </div>
+
+                <input type="checkbox" id="toggle-btn">
+                <label for="toggle-btn" class="show-menu-btn"><i class="fas fa-bars"
+                        onclick="changeIcon(this)"></i></label>
+
+                <div class="pages_list ">
+                    <ul>
+                        <li>
+                            <a href="index.html" active>Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#features">Features</a>
+                        </li>
+                        <li>
+                            <a href="#solutions">Solutions</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Hero-section -->
+    <section class="hero-section">
+        <div class="hero-container">
+            <div class="inner-container">
+                <div class="content-part">
+                    <div class="discount">
+                        <div class="discount-icon">
+                            <img src="images/Discount.svg" alt="">
+                        </div>
+                        <div class="about-discount">
+                            <h2>
+                                <span>20% </span> DISCOUNT FOR <span>1 MONTH</span> ACCOUNT
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="hero-heading">
+                        <h1>
+                            The Next <span> Generation </span>
+                            Payment Method.
+                        </h1>
+                        <div class="get-started">
+                            <h3>Get
+                                <span> <img src="images/arrow _Up.png" alt=""> </span>
+                                Started
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="hero-content">
+                        <p>Our team of experts uses a methodology to identify the credit cards most likely to fit your
+                            needs.
+                            We examine annual percentage rates, annual fees.</p>
+                    </div>
+                </div>
+                <div class="hero-img">
+                    <img src="images/hero_section_img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Data Analytics -Section -->
+    <section class="data-analytics sectionToTrack counter-section" id="about">
+        <div class="container">
+            <div class="inner-container">
+                <div class="users data">
+                    <div class="numbers">
+                        <h2>
+                            <span class="counter" data-target="3800"></span>+
+                        </h2>
+                    </div>
+                    <div class="heading">
+                        <h1>User Active</h1>
+                    </div>
+
+                </div>
+                <div class="vertical-line">
+                    <img src="images/vertical-line.png" alt="">
+                </div>
+                <div class="trusted-companies data">
+                    <div class="numbers">
+                        <h2>
+                            <span class="counter" data-target="230"></span>+
+                        </h2>
+                    </div>
+                    <div class="heading">
+                        <h1>TRUSTED BY COMPANY</h1>
+                    </div>
+                </div>
+                <div class="vertical-line">
+                    <img src="images/vertical-line.png" alt="">
+                </div>
+                <div class="transactions data">
+                    <div class="numbers ">
+                        <h2>$
+                            <span class="counter" data-target="230"></span>M+
+                        </h2>
+                    </div>
+                    <div class="heading">
+                        <h1>TRANSACTION</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Bussiness - Section -->
+    <section class="bussiness same-section" id="features">
+        <div class="container">
+            <div class="inner-container">
+                <div class="content">
+                    <h1>You do the business, we’ll handle the money.</h1>
+                    <p>With the right credit card, you can improve your financial life by building credit, earning
+                        rewards and saving money. But with hundreds of credit cards on the market.</p>
+                    <!-- <div class="btn"> -->
+                    <a href="#">Get Started</a>
+                    <!-- </div> -->
+
+                </div>
+                <div class="features">
+                    <div class="reward feature">
+                        <div class="icon">
+                            <img src="images/reward_icon.png" alt="">
+                        </div>
+                        <div class="about">
+                            <h1>Rewards</h1>
+                            <p>The best credit cards offer some tantalizing combinations of promotions and prizes</p>
+                        </div>
+                    </div>
+                    <div class="security feature">
+                        <div class="icon">
+                            <img src="images/secured_icon.png" alt="">
+                        </div>
+                        <div class="about">
+                            <h1>100% Secured</h1>
+                            <p>We take proactive steps make sure your information and transactions are secure.</p>
+                        </div>
+                    </div>
+                    <div class="transfer feature">
+                        <div class="icon">
+                            <img src="images/balanced_transfer_icon.png" alt="">
+                        </div>
+                        <div class="about">
+                            <h1>Balance Transfer</h1>
+                            <p>A balance transfer credit card can save you a lot of money in interest charges.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- invoicing -Section -->
+    <section class="invoicing same-section" id="solutions">
+        <div class="container">
+            <div class="inner-container">
+                <div class="transaction-part">
+                    <div class="last-transaction">
+                        <h1>Last Transaction</h1>
+                        <div class="companies">
+                            <div class="company">
+                                <div class="about">
+                                    <img src="images/dribbble_seeklogo.png" alt="">
+                                    <div class="title-and-days">
+                                        <h2>Dribbble Pro</h2>
+                                        <p>15 Days ago</p>
+                                    </div>
+                                </div>
+                                <div class="billing">
+                                    <img src="images/downArrow-payment-icon.png" alt="">
+                                    <h6 class="amount">-$250,93</h6>
+                                </div>
+                            </div>
+                            <div class="company">
+                                <div class="about">
+                                    <img src="images/netflix-logo.png" alt="">
+                                    <div class="title-and-days">
+                                        <h2>Netflix</h2>
+                                        <p>4 Days ago</p>
+                                    </div>
+                                </div>
+                                <div class="billing">
+                                    <img src="images/downArrow-payment-icon.png" alt="">
+                                    <h6 class="amount">-$250,93</h6>
+                                </div>
+                            </div>
+                            <div class="company">
+                                <div class="about">
+                                    <img src="images/manulife-cash-logo.png" alt="">
+                                    <div class="title-and-days">
+                                        <h2>Manulife Cash</h2>
+                                        <p>4 Days ago</p>
+                                    </div>
+                                </div>
+                                <div class="billing">
+                                    <img src="images/upArrow-payment-icon.png" alt="">
+                                    <h6 class="amount">-$250,93</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="payment-method">
+                        <div class="paypal">
+                            <img src="images/paypal_logo.png" alt="">
+                            <div class="company">
+                                <h2>Paypal</h2>
+                                <h6>Checkout</h6>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <div class="amount">
+                                <h3>Total</h3>
+                                <span>$210</span>
+                            </div>
+                            <a href="#">Change</a>
+                        </div>
+                        <div class="btn">
+                            <a href="#">Make Payment</a>
+                        </div>
+                    </div>
+                    <div class="payment-status">
+                        <img src="images/maps-and-flags.png" alt="">
+                        <h5>Great! Your Payment is succesfully.</h5>
+                    </div>
+                </div>
+                <div class="content">
+                    <h1>Easily control your billing & invoicing.</h1>
+                    <p>Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci
+                        rhoncus aliporttitor integer platea placerat.</p>
+                    <div class="store">
+                        <img src="images/app_store_logo.svg" alt="">
+                        <img src="images/google_play_store_logo.svg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-section">
+            <div class="inner-container">
+
+                <div class="top-footer">
+                    <div class="site-content parts">
+                        <div class="footer-site-logo">
+                            <img src="images/footer_site-logo.svg" alt="">
+                        </div>
+                        <div class="description">
+                            <h1>A new way to make the payments easy, reliable and secure.</h1>
+                        </div>
+                    </div>
+
+                    <div class="usefull-links parts">
+                        <h2>Usefull Links</h2>
+                        <div class="links-list">
+                            <ul>
+                                <li>
+                                    <a href="#">Content</a>
+                                </li>
+                                <li>
+                                    <a href="#">How it Works</a>
+                                </li>
+                                <li>
+                                    <a href="#">Create</a>
+                                </li>
+                                <li>
+                                    <a href="#">Explore</a>
+                                </li>
+                                <li>
+                                    <a href="#">Terms & Services</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="community parts">
+                        <h2>Community</h2>
+                        <div class="links-list">
+                            <ul>
+                                <li>
+                                    <a href="#">Help Center</a>
+                                </li>
+                                <li>
+                                    <a href="#">Partners</a>
+                                </li>
+                                <li>
+                                    <a href="#">Suggestions</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">Newsletters</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="partner parts">
+                        <h2>Partner</h2>
+                        <div class="links-list">
+                            <ul>
+                                <li>
+                                    <a href="#">Our Partner</a>
+                                </li>
+                                <li>
+                                    <a href="#">Become a Partner</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom-footer">
+                    <div class="copyright">
+                        <p>Copyright </p>
+                        <img src="images/copyright.png" alt="">
+                        <p><span>2021 HooBank. All Rights Reserved.</span> </p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
+                        <a href="#"> <i class="fa-brands fa-facebook"></i> </a>
+                        <a href="#"> <i class="fa-brands fa-twitter"></i> </a>
+                        <a href="#"> <i class="fa-brands fa-linkedin"></i> </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
